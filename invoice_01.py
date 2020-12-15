@@ -33,9 +33,9 @@ j_day = jigetu.day
 # In[2]:
 
 
-str01 = '年StaciaData.xlsx'
+str01 = '年xxxxxaData.xlsx'
 data_name = str(n_year) + str01
-data_add = pathlib.Path(r'C:/Users/massu/Desktop/Data')
+data_add = pathlib.Path(r'C:/Users/xxxx/xxxx/Data')
 data_path = data_add.joinpath(data_name)
 print('data_name:', data_name)
 print('data_path:', data_path)
@@ -45,11 +45,11 @@ print('data_path:', data_path)
 
 
 str01 = '_' + str(n_month) 
-month_name = 'stacia_data' + str01 + '.csv'
-part_name = 'stacia_data' + str01 + '.pkl'
+month_name = 'xxxxxx_data' + str01 + '.csv'
+part_name = 'xxxxx_data' + str01 + '.pkl'
 edit_name = 'edit_data' + str01 + '.csv'
-edit_add = pathlib.Path(r'C:/Users/massu/Desktop/study/output')
-out_path = edit_add.joinpath('stacia_product.csv')
+edit_add = pathlib.Path(r'C:/Users/xxxxx/xxxxx/xxxxx/output')
+out_path = edit_add.joinpath('xxxxxx_product.csv')
 product_path = edit_add.joinpath('product_df.pkl')
 month_path = edit_add.joinpath(month_name)
 m_data_path = edit_add.joinpath(part_name)
@@ -474,7 +474,7 @@ bill_sh["B48"].alignment = Alignment(horizontal="left", indent=2)
 bill_sh["B48"] = "※[＊]印は軽減税率「8％」対象商品"
 
 bill_sh["A49"].alignment = Alignment(horizontal="left", vertical="center", indent=4, wrapText=True)
-bill_sh["A49"] = "【お振込先】\n福岡銀行 本店営業部 普通 ５８７２８５２\n株式会社□□□□□"
+bill_sh["A49"] = "【お振込先】\n〇〇銀行 〇〇支店 普通 １２３４５６\n株式会社□□□□□"
 
 
 # In[31]:
