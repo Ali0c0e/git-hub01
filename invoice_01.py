@@ -182,7 +182,7 @@ out_df.to_csv(edit_path)
 
 
 bill_name = 'sample2012.xlsx'
-bill_add = pathlib.Path(r'C:/Users/massu/Desktop/study/edit')
+bill_add = pathlib.Path(r'C:/Users/xxxx/xxxxxp/*****/****')
 bill_path = bill_add.joinpath(bill_name)
 print('bill_path:', bill_path)
 
@@ -411,7 +411,7 @@ bill_sh["B9"] = "尚、原本は本日、普通郵便にてお送りさせて頂
 bill_sh["B22"].alignment = Alignment(horizontal="center", vertical="bottom")
 bill_sh["B22"] = ("{}年{}月ご注文分請求書".format(n_year, n_month))
 bill_sh["G11"].alignment = Alignment(horizontal="right", vertical="center")
-bill_sh["G11"] = "松 田"
+bill_sh["G11"] = "〇 田"
 bill_sh["G12"].alignment = Alignment(horizontal="left", vertical="center")
 bill_sh["G12"] = "送付枚数 1枚(本状含む)"
 
@@ -438,7 +438,7 @@ bill_sh["E23"] = "〒000-0000"
 
 bill_sh["E24"].alignment = Alignment(horizontal="left", vertical="top", indent=2)
 bill_sh["E24"].font = Font(name="コーポレート明朝", size=11, color="000000")
-bill_sh["E24"] = "福岡県福岡市南区□丁目〇番地△号"
+bill_sh["E24"] = "xx県xx市▲区□丁目〇番地△号"
 
 bill_sh["E25"].alignment = Alignment(horizontal="left", vertical="center", indent=2)
 bill_sh["E25"].font = Font(name="コーポレート明朝", size=10, color="000000")
