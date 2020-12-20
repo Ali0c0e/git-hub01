@@ -500,10 +500,6 @@ for col_num2 in range(1, 9):
     bill_sh.cell(row=49, column=col_num2).border = border03
     bill_sh.cell(row=52, column=col_num2).border = border02
 
-
-# In[37]:
-
-
 for q in range(50, 52):
     bill_sh.cell(row=q, column=6).border = border01
 
@@ -517,17 +513,10 @@ for p in range(1, 9):
 for x in range(7, 9):
     bill_sh.cell(row=51, column=x).border = border07
 
-
-# In[38]:
-
-
 bill_sh.cell(row=51, column=6).border = border10
 bill_sh.cell(row=49, column=6).border = border09
 bill_sh.cell(row=49, column=1).border = border12
 
-
-# In[39]:
-
-
+# 請求書の保存
 bill_bk.save(bill_path)
 
